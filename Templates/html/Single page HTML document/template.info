@@ -1,0 +1,34 @@
+﻿[config]
+name=Single page HTML document
+extension=html
+linkformattopic=#%helpid%
+linkformatanchor=#%anchorname%
+category=HTML Documentation
+inherits=
+
+[var_GenerateToc]
+name=Generate table of contents
+name.de=Inhaltsverzeichnis generieren
+name.es=Generar tabla de contenido
+name.fr=Générer la table des matières
+description=If checked, a table of contents will be generated
+description.de=Wenn diese Option aktiviert ist, wird ein Inhaltsverzeichnis erstellt
+description.es=Si se marca, se generará una tabla de contenido.
+description.fr=Si coché, une table des matières sera générée
+default=1
+kind=bool
+values=
+
+[var_TocWidth]
+name=Table of contents width
+name.de=Breite des Inhaltsverzeichnisses
+name.es=Ancho de la tabla de contenido
+name.fr=Largeur de la table des matières
+description=Indicates the width of the table of contents panel.
+description.de=Zeigt die Breite des Inhaltsverzeichnis-Panels an.
+description.es=Indicar el ancho del panel de la tabla de contenido.
+description.fr=Indiquer la largeur du panneau de la table des matières.
+default=25%
+kind=string
+values=
+
